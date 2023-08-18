@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.img{
+    width: 500px;
+    height: 500px;
+    margin-top: 60px;
+}
+.btn span{
+    margin: 3px;
+}
+.price span:last-child{
+    font-size: 13px;
+}
+.action{
+background-color: aliceblue;
+height: 40px;
+width: 100%;
+padding: 10px;
+}
+
+.mark{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: middle;
+}
+.plus{
+    padding: 8px 55px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 0;
+}
+.componstante{
+    padding: 8px 60px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+   border-color: blue;
+    color: blue;
+}
+.componstante:hover{
+  background-color: blue;
+  transition: all 0.3s ease;
+  color: #fff;
+}

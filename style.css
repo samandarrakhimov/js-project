@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.section{
+   padding-top: 100px;
+
+}
+/* navigation start */
+.main-header{
+    z-index: 999;
+   position: fixed;
+   background-color: #fff;
+    top: 0;
+    left: 0;
+    margin-left: 60px;
+    width: 100%;
+}
+
+.main-navigation_items{
+    display: flex;
+   
+    align-items: center;
+    list-style: none;
+    
+    
+}
+.main-navigation_item{
+  list-style: none;
+  margin: 30px;
+  align-items: center;
+  
+}
+.Katalog{
+    width: 100px;
+}
+.search{
+    display: flex;
+    border: 1px solid #dfd4d4; 
+    border-radius: 4px;
+}
+.search input{
+    border: 0;
+    
+    width: 500px;
+    height: 40px;
+}
+.search span {
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+.shoping, .heart{
+    font-size: 14px;
+    transition:  all 0.3s ease;
+}
+.shoping:hover i{
+    color: rgb(21, 0, 255);
+}
+.heart:hover i{
+    color: red;
+}
+.d-flex{
+    height: 70px;
+    font-size: 23px;
+}
+/* navigation ebd */
+
+.carusel-image img{
+ width: 500px;
+}
+.carusel-image1 img{
+    width: 500px;
+   }
+
+
+/* card start */
+.cards{
+    padding-top: 100px;
+    border: none;
+    top: 0;
+    left: 0;
+}
+.card-items{
+   display: flex;
+   top: 0;
+    left: 0;
+   justify-content: space-between;
+   flex-direction: row;
+   flex-wrap: wrap;
+   border: none;
+   
+}
+.card-item{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 480px;
+    border: 1px solid rgb(241, 236, 236);
+    overflow: hidden;
+}
+.card-item_image{
+    width: 100%;
+    background-color: #bf2424;
+    border-radius: 5px;
+   display: flex;
+   position: relative;
+   height: 100%;
+   overflow: hidden;
+  
+}
+.card-item_image img {
+    width: 800px;
+    height: 300px;
+    overflow: hidden;
+}
+.card-item_image:hover img {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    
+}
+.card-item_image  i{
+  color: #bf2424;
+  position: absolute;
+  z-index: 4;
+  left: 90%;
+  font-size: 20px;
+  top: 12px;
+   
+}
+/* .card-item_image:hover  i{
+    transition:  all 0.3s ease;
+    color: red;
+} */
+.card-item_span{
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+   border-radius: 5px;
+   color: #fff;
+   padding: 3px;
+   font-size: 13px;
+}
+.card-item_info{
+   margin-top: 10px;
+}
+.card-item_title{
+    font-size: 16px;
+    
+}
+.card-item_grad{
+    color: #797979;
+    font-size: 13px;
+  
+}
+.card-item_sum{
+    font-size: 14px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 20px;
+    vertical-align: middle;
+   padding-left: 10px;
+    
+   
+}
+.card-item_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item_price{
+     
+    color: black;
+    font-weight: bold;
+   
+   
+}
+.sum{
+    text-decoration: none;
+   font-size: 11px;
+   margin-top: 10px;
+   
+}
+ .active{
+   border: 1px solid black; 
+   height: 40px;
+   border-radius: 100%;
+   width: 40px;
+   text-align: center;
+   vertical-align: end;
+   color: rgb(165, 172, 177);
+  
+}
+.active i {
+    font-size: 20px;
+}
+.card-item_footer a i{
+   line-height: 45px;
+}
+
+/* card end */
+.main-footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-footer_items{
+   list-style: none;
+}
+.main-footer_header{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-footer_item{
+ margin-bottom: 10px;
+ font-size: 14px;
+ color: #797979;
+}
+.main-footer_item a{
+    text-decoration: none;
+    color: black;
+}
+.main-footer_network{
+    font-size: 40px;
+}
+.main-footer_network i{
+    margin: 5px;
+}
+.main-footer_network :first-child {
+color: #bf9624;
+}
+.main-footer_network i{
+color: #bf2424;
+}
+.main-footer_network :last-child{
+    color: blue;
+}
+.footer{
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+  
+    align-items: center;
+}
+.footer h6{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer p{
+    font-size: 13px;
+}
